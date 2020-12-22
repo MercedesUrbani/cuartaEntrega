@@ -1,0 +1,30 @@
+/* COACHING ONTOLOGICO */
+.accordion {
+    margin: 100px 0;
+    background-color: $color-fondo;
+    border-radius: 5px;
+}
+
+.btn {
+    img {
+        height: 14px;
+        width: auto;
+        position: absolute;
+        right: 80px;}
+    &-link {
+        text-decoration: none;
+        &:active, &:link, &:visited, &:focus {
+            color: $color-link;
+        }
+        &:hover {
+            color: $color-texto3;
+        }
+    }
+}
+
+.videoCoaching {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 120px 0;   
+}
