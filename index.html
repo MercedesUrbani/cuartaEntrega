@@ -5,9 +5,10 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Inicio - Sol Garaicoechea</title>
-    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@300&family=Roboto:wght@300&display=swap"
+    <link
+        href="https://fonts.googleapis.com/css2?family=Lobster+Two:ital@1&family=Raleway:wght@300&family=Roboto:wght@300&display=swap"
         rel="stylesheet">
-    <link href="imagenes/amapola.svg" rel="icon" type="image/svg">
+    <link href="imagenes/florDeLoto.svg" rel="icon" type="image/svg">
 
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css"
         integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
@@ -23,9 +24,8 @@
             <div class="navBar">
                 <div class="sol">
                     <!--aca va el titulo y subtitulo-->
-                    <img src="imagenes/amapola.svg" type="image/svg" alt="logoAmapola" class="logo">
+                    <img src="imagenes/florDeLoto.svg" type="image/svg" alt="logoFlorDeLoto" class="logo">
                     <h1 class="titulo">Sol Garaicoechea</h1>
-                    <h3 class="titulo bajada">Facilitadora y Coach Personal</h3>
                 </div>
                 <!--aca van los enlaces del navBar-->
                 <ul class="navBarList">
@@ -72,36 +72,73 @@
     <main class="contenedorPrincipal">
         <!--texto introductorio-->
         <section class="inicio contenedor" id="inicio">
-            <article class="inicio__contenedor-intro">
-                <p class="parrafo inicio_contenedor-intro_parrafo">Soy Sol Garaicoechea, Coach Ontológico. A través del
-                    DESARROLLO PERSONAL elijo
-                    cada
-                    día
-                    acompañar a otras personas hacia una vida plena en contacto con su interior y sus emociones.
-                </p>
-            </article>
-            <article class="inicio__contenedor-life-coaching">
-                <h2 class="subtitulo inicio_contenedor-life-coaching_subtitulo">Coaching de vida (LifeCoach)</h2>
-                <p class="parrafo inicio_contenedor-life-coaching_parrafo">Desde mi lugar de Coach escucho atentamente,
-                    con profundo respeto y amor. No
-                    juzgo ni
-                    cuestiono, hago preguntas curiosas, a veces desafiantes, para desbloquear creencias limitantes y
-                    acompañar así a tomar acciones que nos lleven por el camino del logro de tus sueños. En cada
-                    sesión
-                    desafiamos la famosa «zona de confort». Observamos juntos aquello que pocas veces suele ser
-                    mirado.
-                    Es
-                    como que ponemos una lupa con luz en lo oculto. Todo proceso es manejado por el cliente: a su
-                    propio
-                    ritmo, a su manera particular de proceder y con los temas que traiga y desee profundizar. Yo no
-                    elijo
-                    los temas, yo no doy consejos. El cliente es el protagonista de la sesión. En algunas sesiones
-                    te
-                    invitaré a hacer ejercicios que colaboren en el proceso o compartiré material útil. Una vez
-                    iniciado
-                    el
-                    proceso el acompañamiento es permanente. No estarás solo!</p>
-            </article>
+            <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+                <ol class="carousel-indicators">
+                    <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                    <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                    <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+                </ol>
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img class="d-block w-100" src="imagenes/fondoChica.jpg" alt="First slide">
+                        <div class="carousel-caption d-none d-md-block">
+                            <h5>Soy Sol Garaicoechea, facilitadora y Coach Ontológico.</h5>
+                            <p>A través del
+                                DESARROLLO PERSONAL elijo
+                                cada
+                                día
+                                acompañar a otras personas hacia una vida plena en contacto con su interior y sus
+                                emociones.</p>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img class="d-block w-100" src="imagenes/jovenDeportistaFestejando.jpg" alt="Second slide">
+                        <div class="carousel-caption d-none d-md-block">
+                            <h5>Coaching de vida (LifeCoach)</h5>
+                            <p>Desde mi lugar de Coach escucho atentamente,
+                                con profundo respeto y amor. No
+                                juzgo ni
+                                cuestiono, hago preguntas curiosas, a veces desafiantes, para desbloquear creencias
+                                limitantes y
+                                acompañar así a tomar acciones que nos lleven por el camino del logro de tus sueños. En
+                                cada
+                                sesión
+                                desafiamos la famosa «zona de confort».</p>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img class="d-block w-100" src="imagenes/fondoBarco.jpg" alt="Third slide">
+                        <div class="carousel-caption d-none d-md-block">
+                            <h5></h5>
+                            <p>Observamos juntos aquello que pocas veces suele ser
+                                mirado.
+                                Es
+                                como que ponemos una lupa con luz en lo oculto. Todo proceso es manejado por el cliente:
+                                a su
+                                propio
+                                ritmo, a su manera particular de proceder y con los temas que traiga y desee
+                                profundizar. Yo no
+                                elijo
+                                los temas, yo no doy consejos. El cliente es el protagonista de la sesión. En algunas
+                                sesiones
+                                te
+                                invitaré a hacer ejercicios que colaboren en el proceso o compartiré material útil. Una
+                                vez
+                                iniciado
+                                el
+                                proceso el acompañamiento es permanente. No estarás solo!</p>
+                        </div>
+                    </div>
+                </div>
+                <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Previous</span>
+                </a>
+                <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Next</span>
+                </a>
+            </div>
             <!--aca va una imagen motivacional-->
             <article class="inicio__contenedor-imagen">
                 <p class="parrafo inicio_contenedor-imagen_parrafo">Aprendé a reformular viejos paradigmas, a soltar
@@ -111,22 +148,19 @@
                     reconciliarte con todo tal como fue. Trabajemos en conjunto por tus sueños construyendo una nueva
                     mirada
                     para alcanzar tu bienestar.</p>
-                <img src="imagenes/teamPuzzle.jpg" alt="team_puzzle"
-                    class="inicio_contenedor-imagen_imagen-team imagenTeam">
             </article>
         </section>
         <!--texto descriptivo-->
         <section class="contenedorSobreMi contenedor" id="sobreMi">
-            <h2 class="subtitulo">Sobre Mí</h2>
+            <h2 class="subtitulo subtitulo--margenGrande">Sobre Mí</h2>
             <article class="experiencia">
                 <img class="imagenCelular" src="imagenes/ejecutiva_cel.png" alt="ejecutiva_cel">
-                <p class="parrafo comienzo">Nací y me crié en plena Ciudad de Buenos Aires. Estudié en la Universidad de
-                    Buenos
-                    Aires Licenciatura en Administración, ni bien finalicé el colegio secundario.
+                <p class="parrafo comienzo">Nací en plena Ciudad de Buenos Aires. Estudié en la UBA Licenciatura en
+                    Administración, ni bien finalicé el colegio secundario.
                     Al mismo tiempo, comencé a trabajar jornada completa y más tarde realicé una Especialización de
                     posgrado en Administración Financiera en el Sector Público Argentino.
                 </p>
-                <p class="parrafo correcto">Sentía constantemente que, de alguna manera, este enfoque que había elegido
+                <p class="parrafo correcto">Sentía constantemente que este enfoque que había elegido
                     para mi
                     vida no llenaba mi alma y me hacía sentir incómoda.
                     Pero yo seguía en la marcha porque creía que era lo que había que hacer, que estaba haciendo
@@ -135,7 +169,7 @@
                     y otras alternativas ni siquiera se me llegaban a ocurrir, sencillamente no podía verlas.
                 </p>
                 <p class="parrafo inquietud">
-                    Luego de años de psicoanálisis llegué, por recomendación de mi homeópata, a un proceso de Coaching y
+                    Luego de años de psicoanálisis llegué a un proceso de Coaching y
                     de TAO.
                     Esta senda de revisión y desarrollo personal me hizo volver a tomar contacto con mis preguntas de
                     niña y comprender que no las había abandonado definitivamente,
@@ -144,7 +178,7 @@
                     Constelaciones Familiares Cuánticas
                     y encontré en este camino de servicio aquello que tantos años busqué:
                 </p>
-                <p class="parrafo vocacion"><strong>¡Mi pasión! ¡Encontré por fin la vocación que hace vibrar y brillar
+                <p class="parrafo vocacion"><strong>¡Mi pasión! ¡la vocación que hace vibrar y brillar
                         mi alma! Lo que
                         se refleja en cada sesión, taller y capacitación que llevo a cabo por la entrega con la que
                         realizo
@@ -153,18 +187,17 @@
             <article class="formacionGrid">
                 <img class="imagenSolNotebook" src="imagenes/ejecutiva_notebook.jpg" alt="ejecutiva_notebook">
                 <h3 class="subtitulo miFormacion">Mi formación</h3>
-                <p class="parrafo formacion">Realicé mi formación de COACHING ONTOLÓGICO PROFESIONAL durante dos años de
+                <p class="parrafo formacion">Realicé mi formación de Coaching Ontológico Profesional durante dos años de
                     manera
                     presencial y vivencial en una escuela de mucho prestigio en la Ciudad de Buenos Aires. Mi título
                     está avalado por la Asociación Argentina de Coaches Ontológicos AACOP y acreditado por la Federación
                     Internacional de Coaching Ontologico FICOP.
-                    También me formé y estoy certificada en NUEVAS CONSTELACIONES FAMILIARES CUÁNTICAS (otra formación
-                    presencial de 2 años sumamente sanadora y hermosa), en COACHING SISTÉMICO, en el Programa
-                    Internacional ONU FAMILIAS FUERTES (con experiencia práctica en el asentamiento Villa 31 del barrio
+                    También me formé en nuevas constelaciones familiares cuánticas, en el Programa
+                    Internacional ONU familias fuertes (con experiencia práctica en el asentamiento Villa 31 del barrio
                     de Retiro, en Buenos Aires) y en Disciplina Positiva.</p>
-                <p class="parrafo trayectoria">He sido DOCENTE de la formación de Coaching Ontológico Profesional de la
+                <p class="parrafo trayectoria">He sido docente de la formación de Coaching Ontológico Profesional de la
                     Consultora
-                    Centro de Desarrollo Humano, en su sede de Belgrano (CABA), participé como colaboradora de
+                    Centro de Desarrollo Humano participé como colaboradora de
                     Entrenamientos de Vida con Coaching Cuántico.
                     Actualmente dicto cursos y talleres de capacitación para diferentes organismos y
                     empresas, y también para el público en general.
@@ -188,9 +221,11 @@
                     predisposición. Pero no puedo ir sola.</p>
                 <p class="parrafo juntos"><strong>Necesitamos ir juntos.</strong></p>
             </article>
-            <!--cajitas con los valores a representar (ver de ponerle iconos a cada valor y cuando seleccionas una card se agrande)-->
-            <h3 class="subtitulo subMi">Valores</h3>
-            <section class="principios contenedorCards">
+        </section>
+        <!--cajitas con los valores a representar (ver de ponerle iconos a cada valor y cuando seleccionas una card se agrande)-->
+        <section class="principios contenedor">
+            <h2 class="subtitulo subtitulo--margen">Valores</h2>
+            <div class="contenedorCards">
                 <article class="card cardGrande">
                     <h4>Compromiso</h4>
                     <p class="parrafo">Mi concentración, atención y energía está puesta en lo que mi consultante quiere
@@ -259,7 +294,7 @@
                     </p>
                     <img src="imagenes/card8empatia.svg" alt="Logo Empatía" type="image/svg" />
                 </article>
-            </section>
+            </div>
         </section>
         <!--explicacion del tema con Bootstrap accordion y video-->
         <section class="contenedorCoaching contenedor" id="coaching">
@@ -358,21 +393,39 @@
                             solos. El coach te muestra lo que ya tenés y no habías visto.
                         </p>
                     </div>
+                    <div class="cardAccordion">
+                        <div class="card-header" id="headingFour">
+                            <h2 class="mb-0">
+                                <button class="btn btn-link btn-block text-left collapsed" type="button"
+                                    data-toggle="collapse" data-target="#collapseFour" aria-expanded="false"
+                                    aria-controls="collapseFour">
+                                    ¿Cómo te puede servir el coaching de vida?
+                                    <img src="imagenes/more.svg" alt="ver mas">
+                                </button>
+                            </h2>
+                        </div>
+                        <div id="collapseFour" class="collapse" aria-labelledby="headingFour"
+                            data-parent="#accordionExample">
+                            <div class="videoCoaching">
+                                <iframe width="560" height="315" src="https://www.youtube.com/embed/Rv16_A08D8w"
+                                    frameborder="0"
+                                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                                    allowfullscreen>Qué es Coaching • Cómo te Puede Servir el Coaching de Vida</iframe>
+                            </div>
+                        </div>
+                    </div>
                 </div>
-            </div>
-            <div class="videoCoaching">
-                <iframe width="560" height="315" src="https://www.youtube.com/embed/Rv16_A08D8w" frameborder="0"
-                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                    allowfullscreen>Qué es Coaching • Cómo te Puede Servir el Coaching de Vida</iframe>
-            </div>
-            <!--enlace a la AACOP-->
-            <p class="parrafo">Para conocer más sobre Coaching Ontológico hacé click <a
-                    href="https://www.aacop.org.ar/queeschoachingontologico"><strong> Aquí </strong></a></p>
+                <!--enlace a la AACOP-->
+                <div class="contenedorCoaching__masInfo">
+                    <p class="parrafo contenedorCoaching__masInfo__parrafo">Para conocer más sobre Coaching Ontológico
+                        hacé click <a href="https://www.aacop.org.ar/queeschoachingontologico"><strong> Aquí
+                            </strong></a></p>
+                </div>
         </section>
         <!--presentacion de las sesiones-->
         <section class="contenedorCardsGrid">
             <article class="sesiones">
-                <h4 id="contrataTusSesiones" class="valores">Contratá tus sesiones de coaching</h4>
+                <h2 id="contrataTusSesiones" class="subtitulo">Contratá tus sesiones de coaching</h2>
                 <p class="parrafo">En las sesiones individuales cuantas más sesiones contratás juntas más ahorrás!!
                     Aprovechá los paquetes promocionales.</p>
             </article>
@@ -415,35 +468,8 @@
                         costos de traslado y de superar la limitación de la distancia si estás lejos de la Ciudad.</li>
                 </ul>
             </article>
-            <!--fomentar las sesiones virtuales-->
-            <!-- eliminar la tabla y buscar una alternativa de calendario de disponibilidad y fechas de talleres-->
-            <article class="tabla">
-                <h5>Beneficios del Coaching a distancia</h5>
-                <table border="3" cellspacing="4" cellpadding="4">
-                    <thead>
-                        <th>Beneficios</th>
-                        <th>Comodidad</th>
-                        <th>Libertad</th>
-                        <th>Economía</th>
-                    </thead>
-                    <tbody>
-                        <tr>
-                            <th>Tu hogar</th>
-                            <td>Desde tu casa vas a poder conectar de manera auténtica con un nivel de vulnerabilidad y
-                                privacidad inigualable</td>
-                            <td>Organizar nuestras actividades en base a la vida que queremos es clave</td>
-                            <td>
-                                <ol class="presencialVirtual">
-                                    <li>Ahorrás tiempo</li>
-                                    <li>Reducís costos</li>
-                                </ol>
-                            </td>
-                        </tr>
-                    </tbody>
-                </table>
-            </article>
             <!--ubicacion del consultorio-->
-            <article id="consultorio">
+            <article class="contenedorConsultorio" id="consultorio">
                 <h3 class="subtitulo">Mi Consultorio</h3>
                 <div class="miConsultorio">
                     <img src="imagenes/Consultorio.jpg" alt="consultorio" class="imagenConsultorio">
@@ -460,16 +486,16 @@
     <!-- agregar redes sociales -->
     <footer class="footer">
         <ul class="listaFooter">
-            <li><img src="imagenes/amapola.svg" type="image/svg" alt="logoAmapola" class="logoChico">
+            <li><img src="imagenes/florDeLoto.svg" type="image/svg" alt="logoFlorDeLoto" class="logoChico">
             </li>
-            <li>Todos los derechos reservados <strong>Mercedes Urbani</strong></li>
+            <li>Derechos reservados <strong>Mercedes Urbani</strong></li>
             <li><a href="https://www.facebook.com/enespanol/"><i class="fab fa-facebook-square"></i></a></li>
             <li><a href="https://www.instagram.com/"><i class="fab fa-instagram"></i></a></li>
             <li><a href="https://www.whatsapp.com/?lang=es"><i class="fab fa-whatsapp"></i></a></li>
             <li>
                 <a href="index.html" target="blank">Inicio</a>
             </li>
-            <li><img src="imagenes/amapola.svg" type="image/svg" alt="logoAmapola" class="logoChico"></li>
+            <li><img src="imagenes/florDeLoto.svg" type="image/svg" alt="logoFlorDeLoto" class="logoChico"></li>
         </ul>
     </footer>
 
@@ -486,7 +512,7 @@
         integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx"
         crossorigin="anonymous"></script>
     <script src="https://kit.fontawesome.com/7aa36192fa.js" crossorigin="anonymous"></script>
-    
+
 </body>
 
 </html>
