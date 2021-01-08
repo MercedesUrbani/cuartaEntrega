@@ -1,9 +1,8 @@
 /* CONTRATA SESIONES */
 .contenedorCardsGrid {
     display: grid;
-    width: 90%;
-    height: 300px;
-    margin: 100px 5% 200px 5%;
+    height: auto;
+    margin-bottom: -100px;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     grid-template-rows: 60px 200px;
     grid-column-gap: 30px;
@@ -61,7 +60,6 @@
     border-radius: 16px;
     &:hover {
         background-color: $color-fondohover;
-    }
-    
+    }    
 }
 

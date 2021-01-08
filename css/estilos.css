@@ -1,4 +1,3 @@
-/* $color-texto1: rgb(173, 18, 44); */
 /* DEFINICIONES GENERALES */
 a {
   text-decoration: none; }
@@ -108,7 +107,6 @@ header {
     list-style: none;
     display: flex;
     justify-content: flex-end;
-    /*     font-family: 'Lobster Two';  */
     margin: 0 20px 0 0;
     font-size: 120%; }
     .navBarList li {
@@ -315,9 +313,8 @@ header {
 /* CONTRATA SESIONES */
 .contenedorCardsGrid {
   display: grid;
-  width: 90%;
-  height: 300px;
-  margin: 100px 5% 200px 5%;
+  height: auto;
+  margin-bottom: -100px;
   grid-template-columns: 1fr 1fr 1fr 1fr;
   grid-template-rows: 60px 200px;
   grid-column-gap: 30px;
@@ -411,7 +408,6 @@ input, textarea, select {
 
 /* PIE DE PAGINA */
 footer {
-  /*     font-family: 'Roboto Condensed', sans-serif; */
   color: #192b50;
   height: 70px;
   width: 100%;
@@ -446,11 +442,17 @@ footer {
 
 /* MOBILE */
 @media (max-width: 767px) {
+  .contenedor {
+    padding: 40px 30px; }
+  .inicio {
+    padding: 0; }
   .contacto {
     max-width: initial;
     margin: 0;
     padding: 0;
     background-size: auto; }
+  .contenedorSobreMi {
+    display: none; }
   .navBar {
     display: none; }
     .navBarMobile {
@@ -511,13 +513,61 @@ footer {
     display: none; }
   .navBarInput:checked ~ .navBarContent {
     display: flex; }
+  /* CARROUSEL MOBILE */
+  .carousel-caption {
+    font-size: 80%; }
+  /* VALORES MOBILE */
+  .cardGrande {
+    width: 100%;
+    height: auto;
+    padding: 15px;
+    border-radius: 25px;
+    border: 5px solid honeydew;
+    background-color: #fff;
+    margin-bottom: 20px; }
+  /* SESIONES MOBILE */
+  .contenedorCardsGrid {
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    grid-row-gap: 20px; }
+    .contenedorCardsGrid .sesiones .subtitulo {
+      margin-bottom: 20px; }
+  .btn img {
+    right: 48px; }
+  .cardChica {
+    width: 100%;
+    height: auto;
+    padding: 15px;
+    border-radius: 25px;
+    border: 5px solid honeydew;
+    background-color: #fff; }
+  /* CONSULTORIO MOBILE */
+  .miConsultorio {
+    flex-direction: column;
+    grid-row-gap: 20px;
+    margin: 30px 0; }
+  .imagenConsultorio {
+    width: 300px;
+    height: 225px; }
+  .ubicacion {
+    width: 300px;
+    height: 225px; }
   /* CONTACTO MOBILE */
+  .contenedorFormulario {
+    padding: 0px;
+    margin: 100px 0 20px 0; }
   textarea {
-    width: 200px;
-    height: 100px; }
+    width: 160px;
+    height: 60px; }
   .listaContacto {
+    font-size: 80%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     margin: 0;
-    padding-inline-start: 20px; }
+    padding-inline-start: 0px; }
     .listaContacto li {
       padding: 0; }
   /* FOOTER MOBILE */
@@ -534,7 +584,7 @@ footer {
   .contacto {
     max-width: initial;
     height: 100%;
-    margin: 0;
+    margin: 200px 0 0 0;
     padding: 0;
     background-size: auto; }
   .navBar {
@@ -597,11 +647,32 @@ footer {
     display: none; }
   .navBarInput:checked ~ .navBarContent {
     display: flex; }
+  .contenedorSobreMi {
+    display: none; }
+  /* VALORES TABLET */
+  .cardGrande {
+    width: 100%;
+    height: auto;
+    padding: 15px;
+    border-radius: 25px;
+    border: 5px solid honeydew;
+    background-color: #fff;
+    margin-bottom: 20px; }
+  /* CONSULTORIO TABLET */
+  .imagenConsultorio {
+    width: 300px;
+    height: 225px; }
+  .ubicacion {
+    width: 300px;
+    height: 225px; }
   /* CONTACTO TABLET */
   textarea {
-    width: 200px;
-    height: 100px; }
+    width: 280px;
+    height: 160px; }
   .listaContacto {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     margin: 0;
     padding-inline-start: 20px; }
     .listaContacto li {
