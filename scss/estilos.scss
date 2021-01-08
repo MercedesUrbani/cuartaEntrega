@@ -1,17 +1,17 @@
-$color-texto1: rgb(173, 18, 44);
-$color-texto2: rgb(117, 8, 63);
+/* $color-texto1: rgb(173, 18, 44); */
+$color-texto2: rgb(25, 43, 80);
 $color-texto3: crimson;
-$color-navBar: rgb(36, 204, 120);
-$color-link: rgb(68, 4, 36);
-$color-linkAct:  rgb(184, 9, 9);
+$color-navBar: rgb(109, 207, 158);
+$color-link: rgb(255, 219, 118);
+$color-linkAct:  rgb(255, 219, 118);
 $color-borde: honeydew;
 $color-fondo: #fff;
-$color-fondohover: rgba(252, 160, 137, 0.6); 
-$color-tablaborde: rgb(14, 179, 96);
-$color-tablatitulo:  rgb(173, 18, 44);
+$color-fondohover: rgba(247, 197, 185, 0.959); 
 $color-form:  rgb(2, 15, 8);
 $color-grad: rgb(93, 196, 107);
 $color-shadow:  rgba(0, 0, 0, 0);
+$color-damero: azure;
+$color-contraste:  rgba(75, 75, 75, 0.5);
 
 
 @import 'generales';
@@ -22,6 +22,7 @@ $color-shadow:  rgba(0, 0, 0, 0);
 @import 'valores';
 @import 'coachingOntologico';
 @import 'sesiones';
+@import 'servicios';
 @import 'consultorio';
 @import 'contacto';
 @import 'footer';

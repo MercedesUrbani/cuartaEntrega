@@ -1,13 +1,12 @@
-
-
 /* DEFINICIONES GENERALES */
 a {
     text-decoration: none;
     &:visited, &:active, &:link {
-    color: $color-link;
+    color: $color-texto2;
+    text-decoration: none;
     }
     &:hover {
-        color: $color-linkAct
+        color: $color-link;
     }
 }
 
@@ -44,7 +43,7 @@ h4 {
 }
 
 .contenedor {
-    padding: 100px 60px;
+    padding: 100px 100px;
     &Principal {
         overflow-y: scroll;
         scroll-behavior: smooth;
@@ -55,6 +54,25 @@ h4 {
     &:after {
         content: "";
         display: block;
+    }
+}
+
+.titulo {
+    margin: 4px 0px;
+    color: $color-borde;
+    font-family: 'Lobster Two', cursive;
+}
+
+.subtitulo {
+    color: $color-navBar;
+    font-style: italic;
+    font-size: 180%;
+    text-align: start;
+    &--margen {
+        margin: 0 auto 28px 40px;
+        &Grande {
+            margin: 0 auto 28px 60px;
+        }
     }
 }
 

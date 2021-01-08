@@ -1,21 +1,22 @@
 /* PIE DE PAGINA */
 footer {
-    font-family: 'Roboto Condensed', sans-serif;
-    color: var(--color-texto2);
-    height: 40px;
+/*     font-family: 'Roboto Condensed', sans-serif; */
+    color: $color-texto2;
+    height: 70px;
     width: 100%;
     display: flex;
     align-items: center;
     justify-content: center;
     z-index: 3;
+    margin: 0;
 }
 
 .contenedorPrincipal:after {
-    height: 40px; 
+    height: 70px; 
 }
 
 .footer {
-    border-top: 2px solid $color-borde;
+    background-color: $color-navBar;
     &Contacto {
         position: relative;
         bottom: 20px;
@@ -27,6 +28,7 @@ footer {
     padding-left: 0;
     display: flex;
     align-items: center;
+    margin: 0;
     li {
         padding: 0 8px;
         display: inline-block;

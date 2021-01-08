@@ -1,13 +1,7 @@
 /* SOBRE MI */
 .contenedorSobreMi {
-    margin-top: -100px;
-}
-
-/* buscar fotos de Sol, consultorio */
-.principios {
-    color: $color-texto2;
-    text-align: justify;
-    flex-wrap: wrap;
+    margin-top: 0;
+    background-color: $color-damero;
 }
 
 .gridGeneral {
@@ -59,9 +53,9 @@
 
 .formacionGrid {
     @extend .gridGeneral;
-    margin-bottom: 100px;
+    margin-bottom: 30px;
     grid-template-columns: 6fr 4fr;
-    grid-template-rows: 30px 200px 150px 40px 70px 40px 60px 0px;
+    grid-template-rows: 30px 200px 150px 40px 90px 40px 70px 10px;
     grid-column-gap: 20px;
     grid-row-gap: 10px;
     grid-template-areas:
@@ -117,8 +111,4 @@
     grid-area: juntos;
     max-width: 500px;
     justify-self: center;
-}
-
-.subMi {
-    margin: 50px 0;
 }

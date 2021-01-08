@@ -1,8 +1,16 @@
 /* CARDS DE VALORES */
+.principios {
+    color: $color-texto2;
+    text-align:justify;
+    margin-top: 0px;
+    padding: 100px 60px;
+}
+
 .contenedorCards {
     width: 100%;
     display: flex; 
     justify-content: space-evenly; 
+    flex-wrap: wrap;
 }
 
 .card {
@@ -15,6 +23,9 @@
     img {
         width: 50px;
         height: 50px;
+    }
+    h4 {
+        font-weight: bolder;
     }
 }
 
@@ -39,9 +50,4 @@
         background-color: $color-fondohover;
         z-index: 3;
     }
-}
-
-h4 {
-    color: $color-texto3;
-    letter-spacing: 10px;
 }

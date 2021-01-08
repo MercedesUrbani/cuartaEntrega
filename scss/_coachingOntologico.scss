@@ -1,6 +1,23 @@
 /* COACHING ONTOLOGICO */
+.contenedorCoaching {
+    background-color: $color-damero;
+    margin-bottom: 0px;
+    height: 600px;
+    &__masInfo {
+        display: flex;
+        align-content: center;
+        justify-content: center;
+        background-color: $color-damero;
+        &__parrafo {
+            padding: 12px;
+            margin-top: 60px;
+            border-radius: 5px;
+            box-sizing: border-box;
+        }
+    }
+}
 .accordion {
-    margin: 100px 0;
+    margin: 20px 0 100px 0;
     background-color: $color-fondo;
     border-radius: 5px;
 }
@@ -13,11 +30,14 @@
         right: 80px;}
     &-link {
         text-decoration: none;
+        color: $color-texto2;
         &:active, &:link, &:visited, &:focus {
-            color: $color-link;
+            text-decoration: none;
+            color: $color-navBar;
         }
         &:hover {
-            color: $color-texto3;
+            color: $color-navBar;
+            text-decoration: none;
         }
     }
 }
@@ -26,5 +46,5 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    margin: 120px 0;   
+    margin: 100px 0 40px 0;   
 }
